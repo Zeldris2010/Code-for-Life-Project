@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title> Short Monday shedule</title>
+    </head>
+
+    <body>
+        
+        <h1 id = "time"></h1>
+        <script>
+            let birthday = "MyBirthday"
+            if (birthday === "MyBirthday") {
+                console.log("I want a cat")
+            }
+            //else if (birthday === "Gilbert's birthday") {
+                //console.log("Gilbert wants a gaming pc")
+            //}
+            //else (birthday === "Dionel birthday") 
+                //console.log("Dionel wants a vacation")
+            
+            const time = new Date().getHours();
+            let greeting;
+            if(time <=6){
+                greeting = "I usually wake up before 6 or at 6 on Mondays."
+                console.log(greeting)
+            }
+            else if(time <= 14) {
+                greeting ="I get out of school 1:30."
+                console.log(greeting)
+            }
+            else
+            greeting = "I go to bed at 10 or later."
+            console.log(greeting)
+            
+            document.getElementById("time").innerHTML = greeting
+            
+            
+            </script>
+    </body>
+    <link rel="stylesheet" a href="JS11.css"
+</html>
